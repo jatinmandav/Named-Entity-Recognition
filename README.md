@@ -23,7 +23,7 @@ For more details:
 
 ## Usage - LSTM Based
 
-Download `tag2index.pkl`, `skipgram.bin` and `skipgram.vec` from  Releases section of the repo and place inside this repo.
+Download `logs/`, `tag2index.pkl`, `skipgram.bin` and `skipgram.vec` from  Releases section of the repo and place inside this repo.
 
 For LSTM based NER, run `predict_lstm.py` using terminal
 
