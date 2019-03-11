@@ -41,5 +41,6 @@ class NamedEntityRecognition:
                     current_chunk = []
             else:
                 continue
-
+        
+        print(continuous_chunk)
         return continuous_chunk
