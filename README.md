@@ -4,6 +4,21 @@ Named Entity Recognition done using NLTK library and LSTM based network.
 
 `main.py` takes three input, Name of Person, Name of Organization, Location and calls GoogleScrapper() file to get results from google search and passes the text to **NLTK based NER**. Joining of LSTM based NER with GoogleSearch is to be done soon.
 
+## Dependecies
+### NLTK-based
+ - NLTK - `pip3 install nltk`
+ - Pickle - `pip3 install pickle`
+ - TQDM - `pip3 install tqdm`
+
+### LSTM-Based
+ - Keras - `pip3 install keras`
+ - Pickle - `pip3 install pickle`
+ - Numpy - `pip3 install numpy`
+ - Pandas - `pip3 install pandas`
+ - Sklearn - `pip3 install sklearn`
+ - FastText - `pip3 install fasttext`
+ - NLTK - `pip3 install nltk`
+
 ## Usage - NLTK Based
 
 For NLTK based NER, run `main.py` using terminal
