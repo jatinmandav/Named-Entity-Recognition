@@ -2,6 +2,8 @@
 
 Named Entity Recognition done using NLTK library and LSTM based network.
 
+`main.py` takes three input, Name of Person, Name of Organization, Location and calls GoogleScrapper() file to get results from google search and passes the text to **NLTK based NER**. Joining of LSTM based NER with GoogleSearch is to be done soon.
+
 ## Usage - NLTK Based
 
 For NLTK based NER, run `main.py` using terminal
@@ -35,6 +37,8 @@ where `text.txt` contains raw text to tag. Output prints each word tagged with e
   - Each sentence is padded by padding token `__PAD__` to a fixed max_len of 50.
   - Word embeddings of each word is generated using `skipgram` model from `fasttext`.
   - Label of each word is the `Tag` from `ner_dataset.csv` ['B-art' 'B-nat' 'I-nat' 'B-eve' 'O' 'B-gpe' 'I-tim' 'B-org' 'I-org' 'B-tim' 'I-art' 'I-per' 'B-per' 'I-gpe' 'I-geo' 'I-eve' 'B-geo']
+  
+  - Training on custom dataset with complete tutorial to be released soon. Until then feel free to play with code.
 #### Model:
 ```
 _________________________________________________________________
